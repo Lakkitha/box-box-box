@@ -77,7 +77,7 @@ Grid search with cliff=0 and temp_factor=1.0 failed to improve beyond the offset
 4. **Exact compound offsets** — need to be co-determined with degradation.
 5. **Joint optimization** — all 10 parameters (3 offsets, 3 deg rates, 3 cliffs, 1 temp formula with 2 params) must be found together. Sequential search failed because parameters interact.
 
-## Recommended Next Steps
+## Recommended Next Steps / Way forward
 
 1. **Fix HARD cliff at 20** and reduce the search space.
 2. **Use the pairwise constraint approach** on same-strategy driver groups: for drivers with the same compound sequence but different pit timing, the ranking directly constrains the parameters via analytic expressions.
